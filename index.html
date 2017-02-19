@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+
+	<!-- <link rel="stylesheet" type="text/css" href="../week-4-game/assets/css/reset.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../triviaGame/assets/css/style.css">
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../triviaGame/assets/javascript/app2.js"></script>
+
+</head>
+<body>
+
+<!-- Opening Modal -->
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">Continue..</span>
+    	<h1>STOP! </h1>
+    	<img src="../triviaGame/assets/images/bridgekeeper1.jpg">
+        <h2> He who would cross the Bridge of Death 
+         	Must answer me these questions three ("Five questions, sir"), 'ere the other side he see.
+         </h2>
+         <!-- <button id="myBtn">Start</button> -->
+  </div>
+
+</div>
+
+
+
+<div class = "row">
+
+	<div class = "col-sm-2"></div>
+
+	<div class = "col-sm-8">
+
+		<h1>Bridgekeeper Game</h1>
+		<br>
+		<br>
+
+		<button id="myBtn">Start</button>
+		
+ 		<br>
+		<p id = "time">Time Remaining:</p>
+		<div id = "time-remain"></div>
+		<br>
+
+		<p class = "questions">What....is your name?</p>
+			<form>
+  				<input class="answers" type="radio" name="name" value="lancelot"> Sir Lancelot the Brave
+  				<input class="answers" type="radio" name="name" value="galahad"> Sir Galahad the Chaste
+  				<input class="answers" type="radio" name="name" value="arthur"> Arthur, King of the Britons  
+			</form> 
+		<br>
+
+		<p class = "questions">What...is your quest?</p>
+			<form>
+				<input class="answers" type="radio" name="quest" value="shrubbery"> To seek a shrubbery
+  				<input class="answers" type="radio" name="quest" value="grail"> To seek the Holy Grail
+ 				<input class="answers" type="radio" name="quest" value="camelot"> To seek Camelot  
+			</form> 
+		<br>
+		<p class = "questions">What...is your favorite color?</p>
+			<form>
+  				<input class="answers" type="radio" name="color" value="blue"> Blue
+  				<input class="answers" type="radio" name="color" value="yellow"> No, yellow
+  				<input class="answers" type="radio" name="color" value="green"> Green  
+			</form> 
+		<br>
+		<p class = "questions">What...is the capital of Assyria?</p>
+			<form>
+  				<input class="answers" type="radio" name="capital" value="ekallatum"> Ekallatum
+  				<input class="answers" type="radio" name="capital" value="assur"> Assur
+  				<input class="answers" type="radio" name="capital" value="nineveh"> Nineveh 
+			</form> 
+		<br>
+		<p class = "questions">What...is the airspeed velocity of an unladen swallow?</p>
+			<form>
+ 		 		<input class="answers" type="radio" name="airspeed" value="meters"> 11 meters per second
+  				<input class="answers" type="radio" name="airspeed" value="miles"> 24 miles an hour
+  				<input class="answers" type="radio" name="airspeed" value="what"> What do you mean, an African or a European swallow? 
+			</form> 	
+		<br>
+
+		<button id="submitBtn">Submit</button>
+
+<div class = "results">
+	<div id = "right"> Right</div>
+	<div id = "wrong">Wrong</div>
+</div>
+
+
+	</div> <!-- end Col-8 -->
+
+	<div class = "col-sm-2"></div>
+
+</div> <!-- end row -->
+
+<div class = "results">
+	<div id = "right"> Right</div>
+	<div id = "wrong">Wrong</div>
+</div>
+
+
+</body>
+</html>
